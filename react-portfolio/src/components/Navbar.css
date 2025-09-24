@@ -1,0 +1,24 @@
+/* File: Navbar.css
+   Student Name: Abdulaziz
+   StudentID: 301420861
+   Date: 09/25/2025
+*/
+.site-nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0.6rem 1rem;
+  border-bottom:1px solid #e5e7eb;
+  background:#fff;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+.nav-left{ display:flex; align-items:center; gap:0.6rem; }
+.logo-link{ display:flex; align-items:center; text-decoration:none; }
+.site-name{ font-weight:700; font-size:1rem; color:#111827; }
+.nav-links a{ margin-left:1rem; text-decoration:none; color:black; }
+.nav-links a:hover{ color:#111827; }
+@media (max-width:600px){
+  .nav-links{ display:none; } /* keep it simple; you can add a hamburger later */
+}

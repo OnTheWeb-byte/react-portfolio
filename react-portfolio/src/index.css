@@ -1,0 +1,27 @@
+/* File: index.css
+   Student Name: Abdulaziz
+   StudentID: 301420861
+   Date: 09/25/2025
+*/
+*
+{
+  box-sizing:border-box;margin:0;padding:0
+}
+body
+{ 
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:skyblue; color:#112427; line-height:1.5; 
+}
+a
+{ 
+  color:inherit 
+}
+img
+{ 
+  max-width:100%; display:block 
+}
+main
+{ 
+  min-height:70vh; 
+}
+
+
